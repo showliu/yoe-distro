@@ -5,6 +5,45 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [Next]
+
+- Add RISCV based BeagleV as supported board
+- Fix xwayland dependency for weston in meta-freescale
+- Add progress handler for S3 copy
+- Upgrade imx firmware to 8.10.1
+- Fix recipes for building with -ffile-prefix-map
+- Upgrade to GCC 11.1.0
+- Upgrade GDB to 10.2
+- Fix patchelf note section alignment issues in uninative
+- Upgrade mesa to 21.0.3
+- Improve reproducibility for libjpeg-turbo
+- Enable -Wdate-time to detect use of DATE TIME macros
+- Enable long options for enabled applets in busybox
+- Improve ptests for libpam and bash and valgrind
+- Switch clang to use Dwarf-5 by default like GCC 11
+- use 0x80008000 as the UBOOT_ENTRYPOINT for mx6ul, mx6ull and mx6ulz
+- Update linux-fslc-imx to v5.4.116 and linux-fslc-lts to v5.10.34
+- Add linux-fslc 5.12.1
+- Enable serial and usbhost machine features for NanoPi-M4
+- Bump linux-ti-mainline to 5.12
+- Fix reproducibility for busybox
+- Update linux-yocto trains to v5.4.116 and v5.10.34
+- Fix kernel configs for qemuriscv32 to support only 1GB physical mem
+- Fix SVN fetcher's parsing revision of SVN repos with redirects
+- Update external-arm-toolchains to latest
+- Add src files to nativesdk rust
+- Use bb.utils.rename() instead of os.rename() in scripts
+- Bump minimum required bitbake version to 1.51
+- gdk-pixbuf updated to 2.42.6, glib-2.0 to 2.68.1, strate to 5.12
+- Upgrade webkitgtk to 2.32.0
+- Fix qtwebengine to build with gcc11 and upgrade to use chromium-87
+- arm/trusted-firmware-m is updated to 1.3.0
+- Upgrade XFCE components - xfce4-panel, xfce4-clipman-plugin,
+  xfce4-systemload-plugin
+- Fix CVE checks in QEMU, openssh, logrotate, jquery
+- Upgrade busybox to 1.33.1
+- Various recipe version upgrades
+
 ## [2021.04] - 2021-04-27
 
 - Upgrade linux-ti-staging kernel to 5.4.106
